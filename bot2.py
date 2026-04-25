@@ -23,7 +23,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-ALLOWED_SUPPLIERS = ["SAVAHOME", "Elizabeth", "ЛАСП", "GRANDDESIGN", "HATEM", "МИ З УКРАЇНИ"]
+ALLOWED_SUPPLIERS = ["SAVAHOME", "Elizabeth", "ЛАСП", "GRANDDESIGN", "HATEM", "МИ З УКРАЇНИ", "Anro", "ECOBELLA", "Edition", "MEVLANA"]
 PAGE_SIZE = 8
 
 _data: dict = {}
