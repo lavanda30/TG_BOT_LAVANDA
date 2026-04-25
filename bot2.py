@@ -1,7 +1,7 @@
 """
 bot2.py — @Price_Lavanda_bot  (t.me/Price_Lavanda_bot)
 
-Показує ТІЛЬКИ: SAVAHOME, Elizabeth, ЛАСП, GRANDDESIGN
+Показує ТІЛЬКИ: SAVAHOME, Elizabeth, ЛАСП, GRANDDESIGN, HATEM, МИ З УКРАЇНИ
 
 Змінні середовища (Railway):
   BOT_TOKEN  — токен бота
@@ -23,7 +23,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-ALLOWED_SUPPLIERS = ["SAVAHOME", "Elizabeth", "ЛАСП", "GRANDDESIGN"]
+ALLOWED_SUPPLIERS = ["SAVAHOME", "Elizabeth", "ЛАСП", "GRANDDESIGN", "HATEM", "МИ З УКРАЇНИ"]
 PAGE_SIZE = 8
 
 _data: dict = {}
@@ -43,10 +43,12 @@ def reload_data() -> dict:
 
 
 SUPPLIER_EMOJI = {
-    "SAVAHOME":    "🏠",
-    "Elizabeth":   "👑",
-    "ЛАСП":        "🧵",
-    "GRANDDESIGN": "🏭",
+    "SAVAHOME":       "🏠",
+    "Elizabeth":      "👑",
+    "ЛАСП":           "🧵",
+    "GRANDDESIGN":    "🏭",
+    "HATEM":          "🪟",
+    "МИ З УКРАЇНИ":   "🇺🇦",
 }
 
 
